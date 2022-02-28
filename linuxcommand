@@ -2,4 +2,7 @@
 sudo scp -i (.pem file location of dest. host) (concerned file name)  (remote username)@(remote IP):(remote location)
 Ex: sudo scp -i /var/www/test/akbmigration.pem akibuki.tar.gz  ubuntu@18.142.122.236:/var/www/akibuki.co.uk
 
-2)
+2) Making tar/zip file 
+sudo tar -czvf akibuki.tar.gz /var/www/akibuki.co.uk
+Ex:sudo tar -czvf akibuki.tar.gz /var/www/akibuki.co.uk
+ 

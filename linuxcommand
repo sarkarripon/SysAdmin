@@ -8,3 +8,6 @@ Ex:sudo tar -czvf akibuki.tar.gz /var/www/akibuki.co.uk
  
 3) Untar/Unzip files
 sudo tar -czvf [filename.tar.gz]
+
+4) Check public IP
+curl ifconfig.me

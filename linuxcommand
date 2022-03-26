@@ -6,8 +6,8 @@ Ex: sudo scp -i /var/www/test/akbmigration.pem akibuki.tar.gz  ubuntu@18.142.122
 sudo tar -czvf akibuki.tar.gz /var/www/akibuki.co.uk
 Ex:sudo tar -czvf akibuki.tar.gz /var/www/akibuki.co.uk
  
-3) Untar/Unzip files
-sudo tar -czvf [filename.tar.gz]
+3) Untar/Unzip files to new directory
+sudo tar -xzvf [filename.tar.gz] -C [new path]
 
 4) Check public IP
 curl ifconfig.me

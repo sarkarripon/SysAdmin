@@ -11,7 +11,7 @@ Ex:sudo tar -czvf akibuki.tar.gz /var/www/akibuki.co.uk
 ###3) Untar/Unzip files to new directory
 sudo tar -xzvf [filename.tar.gz] -C [new path]
 
-###System Info on starting
+<---------- System Info on starting------start---------->
 step 1: Create a file nano /etc/profile.d/motd.sh
 
 #!/bin/bash
@@ -33,7 +33,7 @@ echo -e "
 ──────────────────────────────────────────────────────────────────────                      
 "
 step 2: Restart SSHd: systemctl restart sshd.service
-
+<---------- System Info on starting------end---------->
 
 #Nwtworking
 
